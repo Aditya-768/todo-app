@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  system-ui;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: .5rem;
+    background-color: #9980FA;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    max-width:600px;
+    /* margin: 1rem; */
+    background-color: silver;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.557);
+    margin: .5rem 0 2rem 0;
+    padding: 1rem;
+}
+input[type=text]{
+    outline: none;
+    width: 100%;
+    border: none;
+    padding: .5rem 1rem;
+    margin-bottom: .4rem;
+    box-shadow: 0px -1px 3px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.461);
+    caret-color: green;
+ 
+}
+textarea{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.406);
+    padding: 1rem;
+}
+.title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    word-break: break-all;
+}
+.record{
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    /* text-decoration:underline ; */
+    border-bottom: 5px double black;
+}
+button{
+    padding: .2rem .6rem;
+    right: 0px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.676);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.remove-btn{
+    background-color: #EA2027;
+    color: white;
+    word-break: keep-all;
+    margin-top: 1rem;
+}
+#add-btn{
+    background-color: #2ed573;
+    margin-top: .3rem;
+}
+.detail{
+    background-color: rgb(255, 255, 255);
+    margin-top: .4rem;
+    padding: 1rem;
+    word-break: break-all;
+    text-align: start;
+    white-space: pre-wrap;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 40%);
+}
+.todo{
+    background-color: #b5ffd9;
+    padding: 1rem;
+    list-style:none;
+    max-width:600px;
+    margin: 1rem auto;
+    text-align: start;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0 , .5);
+}
+.tasks-left{
+    /* background-color:rgb(0, 0, 0); */
+    color: darkblue;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-weight: bold;
+}
